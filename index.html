@@ -1,0 +1,414 @@
+<DOCTYPE! HTML>
+	<!DOCTYPE html>
+<html>
+<head>
+<title>Ground truth</title>
+<style>
+body{
+	/*background-image: url(http://homepages.inf.ed.ac.uk/rbf/CVonline/backgrnd.gif);*/
+	background-color: lightgrey;
+	font-family: 'Georgia';
+}
+
+h1{
+font-style: italic;
+font-size: 3em;
+text-align: center;
+color: blue;
+margin: 1%;
+}
+
+
+h2{
+font-style:italic;
+/*font-size: 1em;*/
+text-align: center;
+color: blue;
+margin: -1%;
+}
+
+h3{
+font-style: italic;
+/*font-size: 2em;*/
+text-align: center;
+color: blue;
+margin: 1.5%;
+
+}
+
+.h4{
+/*font-size: 1em;*/
+font-style: italic;
+float: center;
+color: blue;
+}
+
+.h5{
+font-style: normal;
+font-size: 1.25em;
+float:left;
+color: red;
+
+}
+
+.h7{
+font-style: italic;
+font-size: 1.5em;
+text-align: left;
+}
+
+
+p {
+
+}
+
+.thumb{
+	width: 100%;
+	height: auto;
+}
+
+
+.table.table { width: 100%; }
+
+.table th, .table td { 
+  text-align: center; 
+  padding: 0.25em;
+  border: 1px solid rgba(3,3,3,0.2);
+
+}
+
+.table tr { 
+  border-bottom: 10px solid #DDD;
+}
+td.edit-buttons { text-align: center; }
+button { 
+  border-radius: 3px; 
+  border: none; 
+  margin: 0 0.25em; 
+  transition: all 0.3s;
+}
+
+button:hover { 
+  box-shadow: 0 0 4px rgba(3,3,3,0.8); 
+  opacity: 0.9;
+}
+
+button.edit { background: #6F9; }
+button.delete { background: red; }
+
+@media screen and (max-width: 800px) {
+  tr { 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0.5em 0;
+    border: 1px solid rgba(3,3,3,0.2);
+  }
+  td, th {
+    flex: 1 1 150px;
+    border: 0.5px solid rgba(3,3,3,0.2);
+  }
+  td.edit-buttons, td.empty {
+    /*flex: 1 0 90%;
+    text-align: center;*/
+  }
+}
+
+/** { box-model: border-box; font-family: 'Georgia';}
+}*/
+</style>
+</head>
+
+<body>
+	<h1>Ground truth:</h1>
+	<h2>Human Learning Dataset of Disruptive Motion Camouflage Techniques<br>for Escaping Predator's Gaze on Urbanised Terrain</h2>
+	<h3>HLDDMCTEPGUT</h3>
+	<br>
+	<h class="h5">Abstract</h>
+	<br>
+        <p>"Complex human activities can be characterised as compositions of simpler actions. A person is a "set of informative skeletal joints" that "present a continuous evolution of spatial configurations". Ground Truth is a speculative study in computer vision and an attempt to challenge the current notion of "human", adopted by many developers.(is dev. a right word)
+        Training convolutional neural networks in detecting human activity and classifying agents, their traits, and behaviour patterns, receives sustained attention nowadays, mainly by military forces and private corporations. Behaviour templates are projected on individuals and crowds, with the main goal of recognising patterns of interactions, anomalous events, and deviant actions. By building a vocabulary of activities, machine learning datasets come to represent clichés of social constructs and abstract our personal experiences into list of annotated data. This has the potential to enforces conformity to a single prevailing mode and ideology of power.
+         DDCPTEPGUT is a collection of motion techniques meant to render individuals invisible in plain sight. More precisely an exploration of mechanisms for escaping the algorithmic uniforms we involuntary acquire. Based on military and natural camouflage, the series of movements proposes alternative modes of social presence and interactions. 
+      	</p>
+      	<img src="img/01.png" alt="01" height="auto" width="50%">
+<!-- 		<img src="img/01.gif" alt="01" height="auto" width="50%">
+ -->		<br>
+		<br>
+	<h class="h5">Features</h>
+	<br>
+	<p>Movement in urban areas is a skill you must master. Movement techniques must be practiced until they become second nature. To reduce exposure to enemy eyes, you should avoid open areas, avoid silhouetting yourself, and select your next covered position before movement. The following paragraphs discuss how to move in urban areas.</p>
+	<br>
+	<!-- <img src="img/02.png" alt="02" height="auto" width="50%"> -->
+	<br>
+	<h class="h5">Examples</h>
+	<br>
+	<br>
+		<video width="50%" height="auto" playsinline autoplay muted loop>
+		<source src="img/v01.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+	<br>
+	<h class="h5">Complete list of case scenarios</h>
+	<br>
+	<br>
+
+
+
+<h class="h7">Single person techniques (SPT SET1)</h>
+<table class="table">
+  <tr>
+    <th>Roll</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Double roll</td>
+    <td>Roll yourself into a ball. Rotate your body 360 degrees by supporting yourself with your arms layed on the ground.</td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/sp/SP_poseNet.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/sp/SP_bodyPix.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/sp/SP_kinect.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td class="edit-buttons"><button class="edit">Edit</button><button class="delete">Download</button></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Horizontal roll</td>
+    <td>Roll yourself into a ball. Rotate your body 360 degrees by supporting yourself with your arms layed on the ground.</td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/sp/SP_poseNet2.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/sp/SP_bodyPix2.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/sp/SP_kinect2.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td class="edit-buttons"><button class="edit">Edit</button><button class="delete">Download</button></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Vertical roll</td>
+    <td>Roll yourself into a ball. Rotate your body 360 degrees by supporting yourself with your arms layed on the ground.</td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/sp/SP_poseNet3.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/sp/SP_bodyPix3.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/sp/SP_kinect3.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td class="edit-buttons"><button class="edit">Edit</button><button class="delete">Download</button></td>
+  </tr>
+<!--   <tr>
+    <th>Slide</th>
+  </tr> -->
+  <!-- <tr>
+    <td>1</td>
+    <td>Caterpillar slide</td>
+    <td>Lay down facing the ground. Use your palms and feet to slowly approach your destination.</td>
+    <td>...</td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+    <source src="img/v02.mp4" type="video/mp4">
+    <source src="" type="video/ogg">
+    Your browser does not support the video tag.
+    </video>
+    </td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/v02.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td>
+		<video class="thumb" playsinline autoplay muted loop>
+		<source src="img/v01.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td class="edit-buttons"><button class="edit">Edit</button><button class="delete">Download</button></td>
+  </tr> -->
+  <!-- <tr>
+    <th>Mask</th>
+  </tr> -->
+  <!-- <tr>
+    <td>1</td>
+    <td>Silhouette mask</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td class="edit-buttons"><button class="edit">Edit</button><button class="delete">Download</button></td>
+  </tr> -->
+  <!-- <tr>
+    <td>2</td>
+    <td>Countershading</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td class="edit-buttons"><button class="edit">Edit</button><button class="delete">Download</button></td>
+  </tr> -->
+</table>
+<br>
+<h class="h7">Multiple person techniques (MPT SET2)</h>
+<table class="table">
+  <tr>
+    <th>Morph</th>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Horizontal roll</td>
+    <td>Roll yourself into a ball. Rotate your body 360 degrees by supporting yourself with your arms layed on the ground.</td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/mp/MP_poseNet.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/mp/MP_bodyPix.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/mp/MP_kinect.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td class="edit-buttons"><button class="edit">Edit</button><button class="delete">Download</button></td>
+  </tr>
+    <td class="edit-buttons"><button class="edit">Edit</button><button class="delete">Download</button></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Horizontal roll</td>
+    <td>Roll yourself into a ball. Rotate your body 360 degrees by supporting yourself with your arms layed on the ground.</td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/mp/MP_poseNet2.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/mp/MP_bodyPix2.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/mp/MP_kinect2.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td class="edit-buttons"><button class="edit">Edit</button><button class="delete">Download</button></td>
+  </tr>
+    <td class="edit-buttons"><button class="edit">Edit</button><button class="delete">Download</button></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Horizontal roll</td>
+    <td>Roll yourself into a ball. Rotate your body 360 degrees by supporting yourself with your arms layed on the ground.</td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/mp/MP_poseNet3.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/mp/MP_bodyPix3.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td>
+    <video class="thumb" playsinline autoplay muted loop>
+		<source src="img/video/mp/MP_kinect3.mp4" type="video/mp4">
+		<source src="" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>
+    </td>
+    <td class="edit-buttons"><button class="edit">Edit</button><button class="delete">Download</button></td>
+  </tr>
+  
+  <!-- <tr>
+    <td>4</td>
+    <td>final data</td>
+    <td>yeah!</td>
+    <td>brap</td>
+    <td>bwamp</td>
+    <td>bwarp</td>
+    <td>beep</td>
+    <td class="edit-buttons"><button class="edit">Edit</button><button class="delete">Delete</button></td>
+  </tr> -->
+</table>
+
+	<h class="h5">List of references</h>
+	<br>
+	<br>
+	<h class="h4">Video clips created ........... Cretits, colophon, bla bla.</h>
+
+
+
+
+
+</body>
+
+</html>
